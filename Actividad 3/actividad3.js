@@ -12,3 +12,12 @@ else if (numero1 == numero2) {
 else {
     console.log ("El segundo número es el mayor");
 }
+
+//Prueba esto:
+// if (a==b) {
+//     console.log("El número " + a + " y " + "el número " + b + " son iguales");
+// }else if (a>b){
+//     console.log("El primero es mayor.")
+// } else if (b>a){
+//     console.log("El segundo es mayor")
+// }
