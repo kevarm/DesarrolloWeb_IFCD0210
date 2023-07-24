@@ -1,21 +1,27 @@
-/**var usuario = prompt ("Usuario");
+var usuario = prompt ("Usuario");
 
 if (usuario=="Admin"){
-    var contraseña= prompt("Contraseña")
-}else if (usuario==="holi") {
-    alert("Cancelado")
+    var contraseña= prompt("Contraseña");
+    
+    if (contraseña=="Webmaster"){
+    alert("Bienvenido");
+
+        }else if (contraseña==null){
+            alert("Contraseña Cancelado");
+
+             }else {
+                alert("Contraseña incorrecta");
+} else if(usuario==null) {
+    alert("Usuario Cancelado")
 }else {
     alert("Incorrecto")
-};
+    }
+}
+    
 
-if (contraseña=="Webmaster"){
-    alert("Bienvenido")
-}else if(""){
-    alert("Contraseña incorrecta")
-}else{
-    alert("Cancelado")
-};**/
 
+
+/** 
 var administrador = prompt ("usuario" , []);
     
 if (administrador == "Admin" || administrador =="admin" || administrador== "ADMIN")
@@ -35,4 +41,4 @@ else {
 alert ("cancelado");
 }else {
 alert ("usuario incorrecto");
-}
+}**/
