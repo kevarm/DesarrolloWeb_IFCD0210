@@ -1,0 +1,46 @@
+body {
+    background-color:darkseagreen
+}
+
+.botones input{
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: cadetblue;
+    width: 200px;
+    font-size: 2em;
+    box-shadow: 10px 5px 5px rgb(78, 153, 172);
+}
+
+input:hover {
+    cursor: pointer;
+    zoom: 130%;
+}
+
+/**.botones {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap:1em;
+    row-gap:1em;
+}
+*/
+.botones{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#foto {
+    height:200px;
+    width:200px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

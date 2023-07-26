@@ -11,7 +11,7 @@ if (usuario=="Admin"){
 
              }else {
                 alert("Contraseña incorrecta");
-} else if(usuario==null) {
+} else if (usuario==null) {
     alert("Usuario Cancelado")
 }else {
     alert("Incorrecto")
