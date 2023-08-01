@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" id="formulario" onsubmit="return false">
+
+        <label for="nombre">Nombre</label>
+        <input type="text"  name="nombre" id="nombre">
+        <span id="error_nombre"></span><br>
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos">
+        <span id="error_apellidos"></span><br>
+
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" name="edad">
+        <span id="error_edad"></span><br>
+
+        <input type="submit" value="Enviar" id="submit"><br>
+
+    </form>
+
+    <div class="box_info">
+        <h3>Información del usuario</h3>
+        <hr>
+        <p id="i_nombre">Nombre: <span></span></p>
+        <p id="i_apellidos">Apellidos: <span></span></p>
+        <p id="i_edad">Edad: <span></span></p>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>

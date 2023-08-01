@@ -18,13 +18,6 @@ input:hover {
     zoom: 130%;
 }
 
-/**.botones {
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    column-gap:1em;
-    row-gap:1em;
-}
-*/
 .botones{
     display:flex;
     flex-direction: column;
