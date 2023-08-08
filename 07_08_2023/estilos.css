@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#sigueme{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: block;
+    background-color: yellow;
+    opacity: 0.5;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
