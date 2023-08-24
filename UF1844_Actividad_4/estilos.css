@@ -1,0 +1,90 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#logotipo {
+    width:200px;
+    height:200px;
+}
+nav button {
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav button:hover {
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightpink;
+    cursor:pointer;
+}
+
+/*main*/
+
+main{
+    display:flex;
+}
+.menu_izquierda {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_izquierda h3 {
+    margin-top:45px;
+    color: black;
+    font-size: 1.5em;
+}
+
+/*.menu_izquierda h3:hover {
+    margin-top:45px;
+    color: black;
+    font-size: 1.5em;
+    background-color: lightpink;
+}*/
+
+#contenido {
+    background-color: lightpink;
+    width:70%;
+    height:400px;
+}
+
+.formulario {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-evenly;
+    padding-top: 50px;
+}
+
+.formulario input{
+    margin-bottom: 20px;
+}
+
+.acceso {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 80px;
+}
+
+.acceso input {
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer li{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer a{
+    list-style: none;
+}
