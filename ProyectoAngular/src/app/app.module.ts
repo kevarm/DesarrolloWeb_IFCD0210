@@ -13,6 +13,8 @@ import { FormularioAccesoComponent } from './formulario-acceso/formulario-acceso
 import { FormularioDeRegistroComponent } from './formulario-de-registro/formulario-de-registro.component';
 import { FormularioDeConsultaComponent } from './formulario-de-consulta/formulario-de-consulta.component';
 
+/*Aquí hay que enrutar todos los componentes (arriba)*/
+
 @NgModule({
   declarations: [
     AppComponent,

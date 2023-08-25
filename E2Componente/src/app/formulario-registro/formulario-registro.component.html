@@ -1,0 +1,17 @@
+<h1>¿Aún no tienes cuenta? Regístrate</h1>
+<form (ngSubmit)="submit()">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" [(ngModel)]="nombreReg">
+    <label for="apellidos">Apellidos</label>
+    <input type="text" id="apellidos" [(ngModel)]="apellidosReg">
+    <label for="email">Email</label>
+    <input type="email" id="email" [(ngModel)]="emailReg">
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" [(ngModel)]="contrasenaReg">
+    <button type="submit">Enviar</button>
+</form>
+
+
+
+<!--form (ngsubmit)="funcion()"
+ngmodel="nombreAcc"-->

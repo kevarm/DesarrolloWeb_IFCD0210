@@ -1,7 +1,7 @@
 <h1>¿Aún no tienes cuenta? Regístrate</h1>
-<form action="">
+<form (ngSubmit)="submit">
     <label for="nombre">Nombre</label>
-    <input type="text" id="nombre">
+    <input type="text" id="nombre" [(ngmodel='')]>
     <label for="apellidos">Apellidos</label>
     <input type="text" id="apellidos">
     <label for="email">Email</label>
