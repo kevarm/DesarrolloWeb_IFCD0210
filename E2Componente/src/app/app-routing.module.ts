@@ -4,6 +4,12 @@ import { AppComponent } from './app.component';
 import { FormularioAccesoComponent } from './formulario-acceso/formulario-acceso.component';
 import { FormularioContactoComponent } from './formulario-contacto/formulario-contacto.component';
 import { FormularioRegistroComponent } from './formulario-registro/formulario-registro.component';
+import { AlumnoComponent } from './alumno/alumno.component';
+import { AlumnosComponent } from './alumnos/alumnos.component';
+import { ProfesorComponent } from './profesor/profesor.component';
+import { ProfesoresComponent } from './profesores/profesores.component';
+import { CursoComponent } from './curso/curso.component';
+import { CursosComponent } from './cursos/cursos.component';
 
 const routes: Routes = [
   {path:'', 
@@ -14,6 +20,18 @@ const routes: Routes = [
   component: FormularioRegistroComponent},
   {path:'contacto',
   component: FormularioContactoComponent},
+  {path:'alumno',
+  component: AlumnoComponent},
+  {path:'alumnos',
+  component: AlumnosComponent},
+  {path:'profesor',
+  component: ProfesorComponent},
+  {path:'profesores',
+  component: ProfesoresComponent},
+  {path:'curso',
+  component: CursoComponent},
+  {path:'cursos',
+  component: CursosComponent},
 ];
 
 @NgModule({

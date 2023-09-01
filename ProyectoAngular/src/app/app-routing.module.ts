@@ -22,9 +22,7 @@ AppComponent},
   {path:'cursos',
   component: CursosComponent},
   {path:'curso',
-  component: CursoComponent}
-  {path:'profesor',
-  component: ProfesorComponent}
+  component: CursoComponent},
 ];
 
 @NgModule({

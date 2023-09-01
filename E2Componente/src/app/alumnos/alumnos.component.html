@@ -1,0 +1,8 @@
+<div>
+    <h1>Alumno</h1>
+        <ul>
+        <li *ngFor="let listado of alumnosAll">
+            {{listado.nombreA}} - {{listado.apellidoA}} - {{listado.edadA}} - {{listado.correoA}} - {{listado.telefonoA}} <span *ngIf="listado.estadoA != false">MATRICULADO</span>
+        </li>
+    </ul>
+</div>
