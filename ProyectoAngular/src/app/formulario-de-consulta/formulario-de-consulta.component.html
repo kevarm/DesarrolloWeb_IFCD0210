@@ -1,5 +1,6 @@
+<br><br><br><br>
 <h1>Envíanos tus dudas</h1>
-<form action="">
+<!--<form action="">
     <label for="nombre">Nombre</label>
     <input type="text" id="nombre">
     <label for="email">Email</label>
@@ -7,5 +8,23 @@
     <label for="textarea">Mensaje</label>
     <textarea name="Mensaje" id="textarea" cols="30" rows="10"></textarea>
     <button>Enviar</button>
-</form>
+    </form>-->
+<!--Formulario angular-->
+    <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput required type="email">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label >Elige una opción</mat-label>
+        <mat-select>
+          <mat-option value="one">Soy alumno</mat-option>
+          <mat-option value="two">No soy alumno</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Textarea</mat-label>
+        <textarea matInput required></textarea>
+      </mat-form-field>
+      <button type="submit">Enviar</button>
+
 

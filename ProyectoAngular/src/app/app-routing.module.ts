@@ -7,10 +7,18 @@ import { ProfesoresComponent } from './profesores/profesores.component';
 import { ProfesorComponent } from './profesor/profesor.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { CursoComponent } from './curso/curso.component';
+import { TareasComponent } from './tareas/tareas.component';
+import { FormularioDeConsultaComponent } from './formulario-de-consulta/formulario-de-consulta.component';
+import { FormularioAccesoComponent } from './formulario-acceso/formulario-acceso.component';
+import { TareasGestionComponent} from './tareas-gestion/tareas-gestion.component';
 
 const routes: Routes = [
-  {path:'', component:
-AppComponent},
+  {path:'gestion', 
+  component:TareasGestionComponent},
+  {path:'acceso', 
+  component:FormularioAccesoComponent},
+  {path:'consulta', 
+  component: FormularioDeConsultaComponent},
   {path:'alumnos',
   component: AlumnosComponent},
   {path:'alumno',
@@ -23,6 +31,8 @@ AppComponent},
   component: CursosComponent},
   {path:'curso',
   component: CursoComponent},
+  {path: 'tareas',
+  component: TareasComponent}
 ];
 
 @NgModule({

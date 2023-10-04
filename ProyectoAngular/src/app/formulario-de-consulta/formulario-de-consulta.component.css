@@ -13,3 +13,10 @@ form{
 button{
     margin: 10px;
 }
+
+/*Clase de formulario de angular*/
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
